@@ -3,9 +3,9 @@
 float a,b;
 int main()
 { // Inicio
- system("clear"); // Limpia pantallpa
+ system("clear"); // Limpia pantalla
 	printf("Dame el primer número\n");
-	scanf("%f",&a);
+	scanf("%f",&a); //Captura
  printf("Valor inicial de a = %f\n",a);
  b=++a;
  printf("Valor de b en el momento de hacer la operacion ++a = %f\n",b);
